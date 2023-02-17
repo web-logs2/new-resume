@@ -1,33 +1,41 @@
 .profile-content {
-  padding-bottom:16px;
-  border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+    padding-bottom:16px;
+
+    /* border-bottom: 1px solid hsl(210deg 18% 87% / 100%); */
+}
+
+.profile-img {
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
 }
 
 .name {
-  /* color: #24292f; */
-  color: #57606a;
-  display: flex;
-  flex-direction: row;
-  font-weight: 400;
+    flex-direction: row;
+    display: flex;
+    font-weight: 400;
+
+    /* color: #24292f; */
+    color: #57606a;
+
 }
 
 .gan {
-  color: #24292f;
+    color: #24292f;
 }
 
 .web {
-  margin-top: 4px;
-  color: 57606a;
-  font-size: 12px;
-  color: #57606a;
+    margin-top: 4px;
+    font-size: 12px;
+    color: #57606a;
 }
 
 .weblink {
-  color: #0969da;
+    color: #0969da;
 }
 
 .profile-contact {
-  margin-top: 16px;
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    margin-top: 16px;
+    flex-direction: row;
 }

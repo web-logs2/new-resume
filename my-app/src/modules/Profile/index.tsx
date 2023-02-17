@@ -1,36 +1,37 @@
-import ProfileInfo from "../../components/ProfileInfo";
-import "./index.css";
-import phone from "../../assets/img/phone.svg";
-import email from "../../assets/img/email.svg";
+import ProfileInfo from '../../components/ProfileInfo'
+import './index.css'
+import phone from '../../assets/img/phone.svg'
+import email from '../../assets/img/email.svg'
+import resume from '../../assets/img/resume.svg'
 
 const ProfileInfoList = {
-  phone: "13867908869",
-  email: "361206768@qq.com",
-};
+  phone: '13867908869',
+  email: '361206768@qq.com',
+}
 
 const Profile = () => {
   return (
-    <div className="profile-content">
-      <div className="name">
+    <div className='profile-content'>
+      <div className='name'>
         <div>胡赞来&ensp;/&ensp; 简历</div>
       </div>
-      <div className="web">
+      <div className='web'>
         个人网站：
         <a
-          target="_blank"
-          rel="noreferrer"
-          className="weblink"
-          href="https://zanlaihu.github.io/blog/"
+          target='_blank'
+          rel='noreferrer'
+          className='weblink'
+          href='https://zanlaihu.github.io/blog/'
         >
           https://zanlaihu.github.io/blog/
         </a>
       </div>
-      <div className="profile-contact">
+      <div className='profile-contact'>
         <ProfileInfo title={ProfileInfoList.phone} img={phone} />
         <ProfileInfo title={ProfileInfoList.email} img={email} />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Profile;
+export default Profile
