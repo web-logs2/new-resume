@@ -12,9 +12,7 @@ const Profile = () => {
   return (
     <div className="profile-content">
       <div className="name">
-        <div>胡赞来</div>
-        <div className="gan">&ensp;/&ensp; </div>
-        <div>简历</div>
+        <div>胡赞来&ensp;/&ensp; 简历</div>
       </div>
       <div className="web">
         个人网站：
