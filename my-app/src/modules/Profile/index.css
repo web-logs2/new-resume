@@ -1,0 +1,33 @@
+.profile-content {
+  padding-bottom:16px;
+  border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+}
+
+.name {
+  /* color: #24292f; */
+  color: #57606a;
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+}
+
+.gan {
+  color: #24292f;
+}
+
+.web {
+  margin-top: 4px;
+  color: 57606a;
+  font-size: 12px;
+  color: #57606a;
+}
+
+.weblink {
+  color: #0969da;
+}
+
+.profile-contact {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+}
