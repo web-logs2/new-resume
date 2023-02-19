@@ -2,6 +2,9 @@ import "./index.css";
 import Profile from "../../modules/Profile";
 import Education from "../../modules/Education";
 import Skills from "../../modules/Skills";
+import Work from "../../modules/Work";
+import Projects from "../../modules/Projects";
+import Thanks from "../../modules/Thanks";
 
 const ChineseResume = () => {
   return (
@@ -9,6 +12,9 @@ const ChineseResume = () => {
       <Profile />
       <Skills />
       <Education />
+      <Work />
+      <Projects />
+      <Thanks />
     </div>
   );
 };

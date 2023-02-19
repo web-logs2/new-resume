@@ -1,11 +1,11 @@
 .profile-info-content {
     display: flex;
     flex-direction: row;
-    margin-right: 24px;
+    margin-right: 26px;
 }
 
 .img {
-    margin-right: 8px;
+    margin-right: 6px;
     width: 16px;
     height: 16px;
 }

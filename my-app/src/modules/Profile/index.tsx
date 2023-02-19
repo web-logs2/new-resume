@@ -2,33 +2,34 @@ import ProfileInfo from '../../components/ProfileInfo'
 import './index.css'
 import phone from '../../assets/img/phone.svg'
 import email from '../../assets/img/email.svg'
-import resume from '../../assets/img/resume.svg'
-
-const ProfileInfoList = {
-  phone: '13867908869',
-  email: '361206768@qq.com',
-}
+import frame from '../../assets/img/frame.svg'
+import { PersonalWebsiteUrl, ProfileConstant } from '../../contants/CH'
 
 const Profile = () => {
   return (
     <div className='profile-content'>
-      <div className='name'>
-        <div>胡赞来&ensp;/&ensp; 简历</div>
+      <div>
+        <div className='name'>
+          <div>{ProfileConstant.title}</div>
+        </div>
+        <div className='web'>
+          {ProfileConstant.web}
+          <a
+            target='_blank'
+            rel='noreferrer'
+            className='weblink'
+            href='https://zanlaihu.github.io/blog/'
+          >
+            {PersonalWebsiteUrl}
+          </a>
+        </div>
+        <div className='profile-contact'>
+          <ProfileInfo title={ProfileConstant.phone} img={phone} />
+          <ProfileInfo title={ProfileConstant.email} img={email} />
+        </div>
       </div>
-      <div className='web'>
-        个人网站：
-        <a
-          target='_blank'
-          rel='noreferrer'
-          className='weblink'
-          href='https://zanlaihu.github.io/blog/'
-        >
-          https://zanlaihu.github.io/blog/
-        </a>
-      </div>
-      <div className='profile-contact'>
-        <ProfileInfo title={ProfileInfoList.phone} img={phone} />
-        <ProfileInfo title={ProfileInfoList.email} img={email} />
+      <div className='profile-qr'>
+        <img src={frame}></img>
       </div>
     </div>
   )

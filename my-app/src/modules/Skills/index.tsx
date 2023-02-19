@@ -1,4 +1,5 @@
 import SingleSkill from '../../components/SingleSkill'
+import { SkillConstant } from '../../contants/CH'
 import './index.css'
 
 const Skills = () => {
@@ -21,13 +22,12 @@ const Skills = () => {
             ></path>
           </svg>
         </div>
-        技术栈
+        {SkillConstant.title}
       </div>
       <div className='skill-single-content'>
-        <SingleSkill skill={'React'} />
-        <SingleSkill skill={'Typescript'} />
-        <SingleSkill skill={'Less'} />
-        <SingleSkill skill={'HTML/CSS/JavaScript'} />
+        {SkillConstant.skills.map(item => (
+          <SingleSkill skill={item} />
+        ))}
       </div>
     </div>
   )
