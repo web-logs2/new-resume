@@ -1,4 +1,7 @@
 .single-project-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     margin-top: 12px;
     padding: 12px;
     width: 338px;
