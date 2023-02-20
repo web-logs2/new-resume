@@ -15,16 +15,18 @@ const SingleProject = (props: SingleProjectProps) => {
           <div className='single-project-desc'>{item}</div>
         ))}
       </div>
-      <div className='single-project-view'>
-        <a
-          target='_blank'
-          rel='noreferrer'
-          className='weblink'
-          href={props.link}
-        >
-          view more
-        </a>
-      </div>
+      {props.link && (
+        <div className='single-project-view'>
+          <a
+            target='_blank'
+            rel='noreferrer'
+            className='weblink'
+            href={props.link}
+          >
+            view more
+          </a>
+        </div>
+      )}
     </div>
   )
 }

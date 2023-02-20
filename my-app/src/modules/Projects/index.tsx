@@ -25,7 +25,7 @@ const Projects = () => {
       </div>
       <div className='project-single-project-content'>
         {ProjectConstant.projects.map(item => (
-          <SingleProject title={item.title} desc={item.desc} />
+          <SingleProject title={item.title} desc={item.desc} link={item?.link}/>
         ))}
       </div>
     </div>

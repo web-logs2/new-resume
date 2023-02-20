@@ -1,5 +1,5 @@
 .work-content {
-    padding: 14px 12px 12px;
+    padding: 10px 12px 12px;
 
     /* border: 1px solid hsl(210deg 18% 87% / 100%); */
     border-radius: 6px;
@@ -15,13 +15,13 @@
 }
 
 .work-title {
-    height: 32px;
+    height: 30px;
     font-size: 12px;
-    line-height: 32px;
+    line-height: 30px;
 }
 
 .work-detail-content {
-    padding: 6px 6px 2px;
+    padding: 6px 6px 6px;
 }
 
 .work-detail {

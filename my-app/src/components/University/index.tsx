@@ -1,23 +1,28 @@
 import './index.css'
 
-export interface UniversityProps {
+export interface UniProps {
   name: string
   year: string
   major: string
   level: string
   gpa: string
 }
+export interface UniversityProps {
+  uni: UniProps
+}
 
 const University = (props: UniversityProps) => {
+  const { name, major, level, gpa, year } = props.uni
+
   return (
     <div className='university-content'>
       <div className='university-left'>
-        <div className='university-name'>{props.name}</div>
-        <div className='major'>{props.major}</div>
-        <div className='degree-level'>{props.level}</div>
-        <div className='gpa'>{props.gpa}</div>
+        <div className='university-name'>{name}</div>
+        <div className='major'>{major}</div>
+        <div className='degree-level'>{level}</div>
+        <div className='gpa'>{gpa}</div>
       </div>
-      <div className='unviersity-year'>{props.year}</div>
+      <div className='unviersity-year'>{year}</div>
     </div>
   )
 }
