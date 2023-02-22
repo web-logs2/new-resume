@@ -95,7 +95,14 @@ export const ProjectConstant = {
 
 export const SkillConstant = {
   title: '技术栈',
-  skills: ['React', 'Typescript', 'Less', 'HTML/CSS/JavaScript'],
+  skills: [
+    '移动端web',
+    'hybrid',
+    'React',
+    'Typescript',
+    'Less',
+    'HTML/CSS/JavaScript',
+  ],
 }
 
 export const ThanksConstant = '- 感谢阅读简历，期待有机会与您共事 -'
