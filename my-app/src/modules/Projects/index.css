@@ -1,25 +1,21 @@
 .project-title-content {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    text-align: center;
-    height: 32px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  height: 32px;
 
-    /* border-top: 1px solid hsl(210deg 18% 87% / 100%); */
-    color:#24292f;
-    font-size: 12px;
-    line-height: 32px;
-
-
-
-
+  /* border-top: 1px solid hsl(210deg 18% 87% / 100%); */
+  color: #24292f;
+  font-size: 12px;
+  line-height: 32px;
 }
 
 .project-single-project-content {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 12px;
-    flex-flow: row wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+  flex-flow: row wrap;
 
-    /* margin-top: 4px; */
+  /* margin-top: 4px; */
 }
