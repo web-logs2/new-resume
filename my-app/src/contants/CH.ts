@@ -67,16 +67,16 @@ export const ProjectConstant = {
     { title: '钱包科技官网', desc: ['钱包科技的官网'] },
     {
       title: '大转盘',
-      desc: ['钱包APP的大转盘抽奖功能。'],
+      desc: ['钱包APP的大转盘抽奖功能。通过旋转的转盘随机抽取奖品，带给用户刺激的体验。'],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/vphvsdbku8qf8oxp',
     },
     {
       title: '折扣券',
-      desc: ['在钱包APP已有的支付功能中加入可选折扣券，调整支付流程。'],
+      desc: ['钱包APP的折扣券功能。更新原有的支付流程，在收银台页面加入折扣券，用户可以选择已有的折扣券来抵扣金额。'],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/zq8e31vbukahpz5c',
     },
-    { title: 'KYC', desc: ['钱包APP中用户录入个人信息的功能'] },
-    { title: '线下扫码支付', desc: ['钱包APP的线下门店扫码支付功能'] },
+    { title: 'KYC', desc: ['钱包APP中用户填写个人信息的功能。'] },
+    { title: '线下扫码支付', desc: ['钱包APP的线下门店扫码支付功能。展示二维码页面供商家扫码机扫码支付。'] },
     {
       title: '钱包APP组件库',
       desc: [
