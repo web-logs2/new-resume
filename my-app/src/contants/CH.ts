@@ -68,40 +68,46 @@ export const ProjectConstant = {
     {
       title: '大转盘',
       desc: [
-        '钱包APP的大转盘抽奖功能。通过旋转的转盘随机抽取奖品，带给用户刺激的体验。',
+        '钱包APP的大转盘抽奖功能',
+        '通过旋转的转盘随机抽取奖品，带给用户刺激的体验。',
       ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/vphvsdbku8qf8oxp',
     },
     {
       title: '折扣券',
       desc: [
-        '钱包APP的折扣券功能。更新原有的支付流程，在收银台页面加入折扣券，用户可以选择已有的折扣券来抵扣金额。',
+        '钱包APP的折扣券功能',
+        '在收银台页面，用户可以选择已有的折扣券来抵扣金额。',
       ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/zq8e31vbukahpz5c',
     },
     {
       title: 'KYC',
       desc: [
-        '钱包APP的个人信息功能。用户填写个人信息来提升钱包等级从而使用更多的功能。',
+        '钱包APP的个人信息功能',
+        '用户填写个人信息来提升钱包等级从而使用更多的功能。',
       ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/rdgyr3bi38g8m76z',
     },
     {
       title: '线下扫码支付',
       desc: [
-        '钱包APP的线下门店扫码支付功能。单页面功能。展示二维码供商家扫码机扫码支付。',
+        '钱包APP的线下门店扫码支付功能',
+        '单页面功能。展示二维码供商家扫码机扫码支付。',
       ],
     },
     {
       title: '钱包APP组件库',
       desc: [
-        '专用于钱包APP的组件库，开发了list、input、dialog、toast、drawer、progress等组件。',
+        '专用于钱包APP的组件库',
+        '开发list、input、dialog、toast、drawer、progress。',
       ],
     },
     {
       title: '批量代发',
       desc: [
-        '是BO中后台的功能，用于批量代发员工工资，节省企业管理成本。',
+        'BO中后台的批量代发功能。',
+        '批量代发员工工资以节省企业管理成本。',
       ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/od46uvb6ekuzbowc',
     },
