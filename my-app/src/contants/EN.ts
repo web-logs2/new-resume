@@ -71,7 +71,7 @@ export const ProjectConstant = {
     {
       title: 'Lucky Draw',
       desc: [
-        'The lottery function of Wallet APP. ',
+        'The lottery function of Wallet APP',
         'Prizes are drawn randomly through the rotating turntable, bringing users an exciting experience',
       ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/vphvsdbku8qf8oxp',
@@ -79,41 +79,45 @@ export const ProjectConstant = {
     {
       title: 'Discount',
       desc: [
-        '钱包APP的折扣券功能。更新原有的支付流程，在收银台页面加入折扣券，用户可以选择已有的折扣券来抵扣金额。',
+        'The discount function of Wallet APP',
+        'Users can add discount to reduce payment amount in the cashier page.',
       ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/zq8e31vbukahpz5c',
     },
     {
       title: 'KYC',
       desc: [
-        '钱包APP的个人信息功能。用户填写个人信息来提升钱包等级从而使用更多的功能。',
+        'The User info function of Wallet APP',
+        'Users upgrade KYC level by adding more personal infomation to use more functions of Wallet APP.',
       ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/rdgyr3bi38g8m76z',
     },
     {
-      title: '线下扫码支付',
+      title: 'OTC',
       desc: [
-        '钱包APP的线下门店扫码支付功能。单页面功能。展示二维码供商家扫码机扫码支付。',
+        'The offline scan payment function of Wallet APP',
+        'Display the QR code for scaning.',
       ],
     },
     {
-      title: '钱包APP组件库',
+      title: 'Component Package of Wallet Tech',
       desc: [
-        '专用于钱包APP的组件库，开发了list、input、dialog、toast、drawer、progress等组件。',
+        '专用于钱包APP的组件库',
+        '开发了list、input、dialog、toast、drawer、progress等组件。',
       ],
     },
     {
-      title: '批量代发',
-      desc: ['是BO中后台的功能，用于批量代发员工工资，节省企业管理成本。'],
+      title: 'Bulk Disbrusement',
+      desc: ['是BO中后台的功能', '用于批量代发员工工资，节省企业管理成本。'],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/od46uvb6ekuzbowc',
     },
   ],
 }
 
 export const SkillConstant = {
-  title: '技术栈',
+  title: 'Skills',
   skills: [
-    '移动端web',
+    'Mobile Web',
     'hybrid',
     'React',
     'Typescript',
@@ -122,4 +126,4 @@ export const SkillConstant = {
   ],
 }
 
-export const ThanksConstant = '- 感谢阅读简历，期待有机会与您共事 -'
+export const ThanksConstant = '- Thank you for reading -'
