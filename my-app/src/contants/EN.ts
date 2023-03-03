@@ -71,7 +71,8 @@ export const ProjectConstant = {
     {
       title: 'Lucky Draw',
       desc: [
-        'The lottery function of Wallet APP. Prizes are drawn randomly through the rotating turntable, bringing users an exciting experience',
+        'The lottery function of Wallet APP. ',
+        'Prizes are drawn randomly through the rotating turntable, bringing users an exciting experience',
       ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/vphvsdbku8qf8oxp',
     },
