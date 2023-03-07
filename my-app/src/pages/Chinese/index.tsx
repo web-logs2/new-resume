@@ -1,10 +1,11 @@
 import './index.css'
-import Profile from '../../modules/Profile'
-import Education from '../../modules/Education'
-import Skills from '../../modules/Skills'
-import Work from '../../modules/Work'
-import Projects from '../../modules/Projects'
-import Thanks from '../../modules/Thanks'
+import Profile from '../../modules/Chinese/Profile'
+import Education from '../../modules/Chinese/Education'
+import Projects from '../../modules/Chinese/Projects'
+import Skills from '../../modules/Chinese/Skills'
+import Thanks from '../../modules/Chinese/Thanks'
+import Work from '../../modules/Chinese/Work'
+
 
 const ChineseResume = () => {
   return (

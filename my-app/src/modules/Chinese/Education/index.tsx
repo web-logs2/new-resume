@@ -1,6 +1,6 @@
-import Blank from '../../components/Blank'
-import University from '../../components/University'
-import { EducationConstant } from '../../contants/CH'
+import Blank from '../../../components/Blank'
+import University from '../../../components/University'
+import { EducationConstant } from '../../../contants/CH'
 import './index.css'
 
 const Education = () => {
