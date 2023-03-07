@@ -1,6 +1,5 @@
-import Blank from '../../components/Blank'
-import University from '../../components/University'
-import { WorkConstant } from '../../contants/CH'
+import University from 'src/components/University'
+import { WorkConstant } from 'src/contants/CH'
 import './index.css'
 
 const Work = () => {

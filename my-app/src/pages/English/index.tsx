@@ -4,6 +4,7 @@ import Projects from "../../modules/English/Projects"
 import Skills from "../../modules/English/Skills"
 import Thanks from "../../modules/English/Thanks"
 import Work from "../../modules/English/Work"
+import './index.css'
 
 const EnglishResume = () => {
   return (

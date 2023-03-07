@@ -1,5 +1,5 @@
-import SingleSkill from '../../components/SingleSkill'
-import { SkillConstant } from '../../contants/CH'
+import SingleSkill from 'src/components/SingleSkill'
+import { SkillConstant } from 'src/contants/EN'
 import './index.css'
 
 const Skills = () => {

@@ -1,5 +1,5 @@
-import SingleProject from '../../components/SingleProject'
-import { ProjectConstant } from '../../contants/CH'
+import SingleProject from 'src/components/SingleProject'
+import { ProjectConstant } from 'src/contants/CH'
 import './index.css'
 
 const Projects = () => {
@@ -25,7 +25,11 @@ const Projects = () => {
       </div>
       <div className='project-single-project-content'>
         {ProjectConstant.projects.map(item => (
-          <SingleProject title={item.title} desc={item.desc} link={item?.link}/>
+          <SingleProject
+            title={item.title}
+            desc={item.desc}
+            link={item?.link}
+          />
         ))}
       </div>
     </div>

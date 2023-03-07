@@ -1,4 +1,4 @@
-import { ThanksConstant } from '../../../contants/CH'
+import { ThanksConstant } from 'src/contants/EN'
 import './index.css'
 
 const Thanks = () => {

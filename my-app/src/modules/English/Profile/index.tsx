@@ -1,9 +1,9 @@
 import ProfileInfo from '../../../components/ProfileInfo'
 import './index.css'
-import phone from '../../assets/img/phone.svg'
-import email from '../../assets/img/email.svg'
-import frame from '../../assets/img/frame.svg'
-import { PersonalWebsiteUrl, ProfileConstant } from '../../../contants/CH'
+import phone from 'src/assets/img/phone.svg'
+import email from 'src/assets/img/email.svg'
+import frame from 'src/assets/img/frame.svg'
+import { PersonalWebsiteUrl, ProfileConstant } from 'src/contants/EN'
 
 const Profile = () => {
   return (
