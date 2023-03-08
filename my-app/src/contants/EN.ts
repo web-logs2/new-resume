@@ -62,7 +62,7 @@ export const WorkConstant = {
 }
 
 export const ProjectConstant = {
-  title: 'Project',
+  title: 'Projects',
   projects: [
     {
       title: 'Wallet Tech Official Website',
