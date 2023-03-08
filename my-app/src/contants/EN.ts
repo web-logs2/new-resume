@@ -102,13 +102,16 @@ export const ProjectConstant = {
     {
       title: 'Component Package of Wallet Tech',
       desc: [
-        '专用于钱包APP的组件库',
-        '开发了list、input、dialog、toast、drawer、progress等组件。',
+        'Component Package for Wallet App',
+        'Developed list, input, dialog, toast, drawer and progress.',
       ],
     },
     {
       title: 'Bulk Disbrusement',
-      desc: ['是BO中后台的功能', '用于批量代发员工工资，节省企业管理成本。'],
+      desc: [
+        'The Bulk Disbursement of Middle office',
+        'It is used to distribute employee wages in batches, saving enterprise management costs.',
+      ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/od46uvb6ekuzbowc',
     },
   ],

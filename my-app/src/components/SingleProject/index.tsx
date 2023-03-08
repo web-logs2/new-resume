@@ -12,7 +12,10 @@ const SingleProject = (props: SingleProjectProps) => {
       <div>
         <div className='single-project-title'>{props.title}</div>
         {props.desc.map(item => (
-          <div className='single-project-desc'>• {item}</div>
+          <div className='single-project-desc'>
+            <div className='single-project-desc-icon'>•</div>
+            <div>{item}</div>
+          </div>
         ))}
       </div>
       {props.link && (
