@@ -105,7 +105,7 @@ export const ProjectConstant = {
       title: '钱包APP组件库',
       desc: [
         '背景：专用于钱包APP的组件库',
-        '参与组件库的开发，负责开发list、input、dialog、toast、drawer、progress。',
+        '参与组件库的开发，负责开发list、input、dialog、toast、drawer、progress等组件。',
       ],
     },
     {
