@@ -3,15 +3,15 @@
     justify-content: space-between;
     flex-direction: column;
     margin-top: 18px;
-    padding: 12px;
-    width: 350px;
+    padding: 14px;
+    width: 360px;
     border: 1px solid hsl(210deg 18% 87% / 100%);
     border-radius: 6px;
 }
 
 .single-project-title {
-    font-size: 14px;
     margin-bottom: 6px;
+    font-size: 14px;
 }
 
 .single-project-desc {
@@ -20,7 +20,7 @@
     flex-direction: row;
     color: #57606a;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 19px;
 }
 
 .single-project-desc-icon {
@@ -28,7 +28,10 @@
 }
 
 .single-project-view {
-    margin-top: 8px;
+    padding-top: 10px;
+    padding-left: 12px;
     color: #0969da;
-    font-size: 12px;
+    font-size: 13px;
+
+    /* font-weight: 400; */
 }

@@ -41,7 +41,9 @@ export const WorkConstant = {
       workDetail: [
         '1. 负责前端研发工作，并编写技术文档；',
         '2. 对海外英语客户提供技术咨询；',
-        '3. 在蚂蚁集团工作期间，参与移动端web、BO中后台、官网的开发。',
+        '3. 在蚂蚁集团工作期间，参与产品化钱包（移动端web）、BO中后台、钱包科技官网的开发。',
+        '3.1 产品化钱包是钱包科技团队对外销售的主要产品。Lazada、Kakaopay、Vodapay均为产品化钱包的变种。',
+        '3.2 BO中后台是产品化钱包的配套中后台产品。',
       ],
     },
     {
@@ -64,12 +66,13 @@ export const WorkConstant = {
 export const ProjectConstant = {
   title: '代表项目',
   projects: [
-    { title: '钱包科技官网', desc: ['蚂蚁国际事业群-钱包科技团队的官网'] },
+    { title: '钱包科技官网', desc: ['蚂蚁国际事业群 - 钱包科技团队的官网', '背景：官网是企业形象的重要组成部分，但是钱包科技团队创立至今一直没有自己的官方网站。'] },
     {
       title: '大转盘',
       desc: [
-        '钱包APP的大转盘抽奖功能',
-        '通过旋转的转盘随机抽取奖品，带给用户刺激的体验。',
+        '钱包APP的大转盘抽奖功能。',
+        '通过旋转的转盘随机抽取奖品。',
+        '背景：站点提出的新需求。'
       ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/vphvsdbku8qf8oxp',
     },
@@ -78,6 +81,7 @@ export const ProjectConstant = {
       desc: [
         '钱包APP的折扣券功能',
         '在收银台页面，用户可以选择已有的折扣券来抵扣金额。',
+        '背景：回沉原有的功能。'
       ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/zq8e31vbukahpz5c',
     },
@@ -86,21 +90,22 @@ export const ProjectConstant = {
       desc: [
         '钱包APP的个人信息功能',
         '用户填写个人信息来提升钱包等级从而使用更多的功能。',
+        '背景：回沉原有的功能。'
       ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/rdgyr3bi38g8m76z',
     },
-    {
-      title: '线下扫码支付',
-      desc: [
-        '钱包APP的线下门店扫码支付功能',
-        '单页面功能。展示二维码供商家扫码机扫码支付。',
-      ],
-    },
+    // {
+    //   title: '线下扫码支付',
+    //   desc: [
+    //     '钱包APP的线下门店扫码支付功能',
+    //     '单页面功能。展示二维码供商家扫码机扫码支付。',
+    //   ],
+    // },
     {
       title: '钱包APP组件库',
       desc: [
-        '专用于钱包APP的组件库',
-        '开发list、input、dialog、toast、drawer、progress。',
+        '背景：专用于钱包APP的组件库',
+        '参与组件库的开发，负责开发list、input、dialog、toast、drawer、progress。',
       ],
     },
     {
@@ -108,6 +113,7 @@ export const ProjectConstant = {
       desc: [
         'BO中后台的批量代发功能。',
         '批量代发员工工资以节省企业管理成本。',
+        '背景：站点提出的新需求。'
       ],
       link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/od46uvb6ekuzbowc',
     },
