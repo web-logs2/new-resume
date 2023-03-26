@@ -76,7 +76,7 @@ export const ProjectConstant = {
         'The lottery function of Wallet APP',
         'Prizes are drawn randomly through the rotating turntable, bringing users an exciting experience',
       ],
-      link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/vphvsdbku8qf8oxp',
+      link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/bwcv1cpokpoimopo',
     },
     {
       title: 'Discount',
@@ -84,7 +84,7 @@ export const ProjectConstant = {
         'The discount function of Wallet APP',
         'Users can add discount to reduce payment amount in the cashier page.',
       ],
-      link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/zq8e31vbukahpz5c',
+      link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/nfw5d069hxk4eue7',
     },
     {
       title: 'KYC',
@@ -92,15 +92,8 @@ export const ProjectConstant = {
         'The User info function of Wallet APP',
         'Users upgrade KYC level by adding more personal infomation to use more functions of Wallet APP.',
       ],
-      link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/rdgyr3bi38g8m76z',
+      link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/dxu8b668qhmig92n',
     },
-    // {
-    //   title: 'OTC',
-    //   desc: [
-    //     'The offline scan payment function of Wallet APP',
-    //     'Display the QR code for scaning.',
-    //   ],
-    // },
     {
       title: 'Component Package of Wallet Tech',
       desc: [
@@ -114,7 +107,7 @@ export const ProjectConstant = {
         'The Bulk Disbursement of Middle office',
         'The Bulk Disbursement is used to distribute employee wages in batches, saving enterprise management costs.',
       ],
-      link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/od46uvb6ekuzbowc',
+      link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/ip09qs7qnxkuffmc',
     },
   ],
 }
