@@ -42,8 +42,6 @@ export const WorkConstant = {
         '1. 负责前端研发工作，并编写技术文档；',
         '2. 对海外英语客户提供技术咨询；',
         '3. 在蚂蚁集团工作期间，参与产品化钱包（移动端web）、BO中后台、钱包科技官网的开发。',
-        '3.1 产品化钱包是钱包科技团队对外销售的主要产品。Lazada、Kakaopay、Vodapay均为产品化钱包的落地成果。',
-        '3.2 BO中后台是产品化钱包的配套中后台产品。',
       ],
     },
     {
@@ -67,33 +65,33 @@ export const ProjectConstant = {
   title: '代表项目',
   projects: [
     { title: '钱包科技官网', desc: ['蚂蚁国际事业群 - 钱包科技团队的官网', '背景：官网是企业形象的重要组成部分。'] },
-    {
-      title: '大转盘',
-      desc: [
-        '钱包APP的大转盘抽奖功能。',
-        '通过旋转的转盘随机抽取奖品。',
-        '背景：站点提出的新需求。'
-      ],
-      link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/bwcv1cpokpoimopo',
-    },
-    {
-      title: '折扣券',
-      desc: [
-        '钱包APP的折扣券功能',
-        '在收银台页面，用户可以选择已有的折扣券来抵扣金额。',
-        '背景：回沉原有的功能。'
-      ],
-      link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/nfw5d069hxk4eue7',
-    },
-    {
-      title: 'KYC',
-      desc: [
-        '钱包APP的个人信息功能',
-        '用户填写个人信息来提升钱包等级从而使用更多的功能。',
-        '背景：回沉原有的功能。'
-      ],
-      link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/dxu8b668qhmig92n',
-    },
+    // {
+    //   title: '大转盘',
+    //   desc: [
+    //     '钱包APP的大转盘抽奖功能。',
+    //     '通过旋转的转盘随机抽取奖品。',
+    //     '背景：站点提出的新需求。'
+    //   ],
+    //   link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/bwcv1cpokpoimopo',
+    // },
+    // {
+    //   title: '折扣券',
+    //   desc: [
+    //     '钱包APP的折扣券功能',
+    //     '在收银台页面，用户可以选择已有的折扣券来抵扣金额。',
+    //     '背景：回沉原有的功能。'
+    //   ],
+    //   link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/nfw5d069hxk4eue7',
+    // },
+    // {
+    //   title: 'KYC',
+    //   desc: [
+    //     '钱包APP的个人信息功能',
+    //     '用户填写个人信息来提升钱包等级从而使用更多的功能。',
+    //     '背景：回沉原有的功能。'
+    //   ],
+    //   link: 'https://www.yuque.com/klaus-rtgrx/goy4cy/dxu8b668qhmig92n',
+    // },
     {
       title: '钱包APP组件库',
       desc: [

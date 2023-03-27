@@ -1,6 +1,8 @@
 import SingleProject from 'src/components/SingleProject'
 import { ProjectConstant } from 'src/contants/CH'
 import './index.css'
+import WalletProjects from 'src/modules/Chinese/WalletProjects'
+import BOProjects from '../BOProjects'
 
 const Projects = () => {
   return (
@@ -22,6 +24,10 @@ const Projects = () => {
           </svg>
         </div>
         {ProjectConstant.title}
+      </div>
+      <div>
+        <WalletProjects />
+        {/* <BOProjects /> */}
       </div>
       <div className='project-single-project-content'>
         {ProjectConstant.projects.map(item => (
