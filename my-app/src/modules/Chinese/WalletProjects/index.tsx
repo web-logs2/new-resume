@@ -7,7 +7,7 @@ const WalletProjects = () => {
       <div>
         <div className='wallet-project-title'>产品化钱包</div>
         {[
-          '产品化钱包是钱包科技团队对外销售的主要产品。Lazada、Kakaopay、Vodapay均为产品化钱包的落地成果。',
+          '产品化钱包是钱包科技团队对外销售的主要产品。Lazada、Kakaopay、Vodapay、DanaPay均为产品化钱包的落地成果。',
           '产品化钱包分为iOS版和安卓版，为hybrid应用，由H5统一进行业务开发。',
           '入职蚂蚁期间，我参与产品化钱包的开发。具有代表性的业务有：大转盘、折扣券、KYC等。',
         ].map(item => (
