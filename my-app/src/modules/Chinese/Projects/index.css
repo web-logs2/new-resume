@@ -22,3 +22,8 @@
 
     margin-top: 40px;
 }
+
+.chinese-projects-one-line-list {
+    display: flex;
+    flex-direction: row;
+}

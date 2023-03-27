@@ -1,17 +1,17 @@
-.wallet-project-content {
+.component-project-content {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 10px;
-    padding: 14px 14px 0px;
-    /* width: 100%; */
+    margin-top: 18px;
+    padding: 14px;
+    width: 362px;
     border: 1px solid hsl(210deg 18% 87% / 100%);
     border-radius: 6px;
 }
 
-.wallet-project-title {
+.portal-project-title {
     margin-bottom: 6px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .single-project-desc {

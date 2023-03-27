@@ -3,6 +3,8 @@ import { ProjectConstant } from 'src/contants/CH'
 import './index.css'
 import WalletProjects from 'src/modules/Chinese/WalletProjects'
 import BOProjects from '../BOProjects'
+import ProtalProject from '../PortalProject'
+import ComponentProject from '../ComponentProject'
 
 const Projects = () => {
   return (
@@ -27,16 +29,11 @@ const Projects = () => {
       </div>
       <div>
         <WalletProjects />
-        {/* <BOProjects /> */}
-      </div>
-      <div className='project-single-project-content'>
-        {ProjectConstant.projects.map(item => (
-          <SingleProject
-            title={item.title}
-            desc={item.desc}
-            link={item?.link}
-          />
-        ))}
+        <BOProjects />
+        <div className='chinese-projects-one-line-list'>
+          <ProtalProject />
+          <ComponentProject />
+        </div>
       </div>
     </div>
   )

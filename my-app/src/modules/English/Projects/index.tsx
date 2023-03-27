@@ -23,7 +23,7 @@ const Projects = () => {
         </div>
         {ProjectConstant.title}
       </div>
-      <div className='project-single-project-content'>
+      {/* <div className='project-single-project-content'>
         {ProjectConstant.projects.map(item => (
           <SingleProject
             title={item.title}
@@ -31,7 +31,7 @@ const Projects = () => {
             link={item?.link}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   )
 }

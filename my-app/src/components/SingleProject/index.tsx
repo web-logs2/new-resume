@@ -4,11 +4,12 @@ export interface SingleProjectProps {
   title: string
   desc: string[]
   link?: string
+  width: string
 }
 
 const SingleProject = (props: SingleProjectProps) => {
   return (
-    <div className='single-project-content'>
+    <div className='single-project-content' style={{ width: props.width }}>
       <div>
         <div className='single-project-title'>{props.title}</div>
         {props.desc.map(item => (
