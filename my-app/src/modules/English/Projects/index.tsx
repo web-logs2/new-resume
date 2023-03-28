@@ -28,10 +28,11 @@ const Projects = () => {
       <div>
         <WalletProjects />
         <BOProjects />
-        <div className='english-projects-one-line-list'>
-          <ProtalProject />
-          <ComponentProject />
-        </div>
+        <ProtalProject />
+        <ComponentProject />
+        {/* <div className='english-projects-one-line-list'>
+
+        </div> */}
       </div>
     </div>
   )

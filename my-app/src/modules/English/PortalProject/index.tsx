@@ -7,7 +7,7 @@ const desc = [
 
 const PortalProject = () => {
   return (
-    <div className='portal-project-content'>
+    <div className='english-portal-project-content'>
       <div>
         <div className='wallet-project-title'>
           The Offcial Website of Wallet Tech

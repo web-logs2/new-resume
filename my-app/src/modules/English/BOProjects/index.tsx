@@ -1,3 +1,4 @@
+import EnglishSingleProject from 'src/components/EnglishSingleProject'
 import SingleProject from 'src/components/SingleProject'
 import './index.css'
 
@@ -8,7 +9,7 @@ const desc = [
 
 const BOProjects = () => {
   return (
-    <div className='multi-project-content'>
+    <div className='english-bo-project-content'>
       <div>
         <div className='wallet-project-title'>BO Middle Office</div>
         {desc.map(item => (
@@ -18,7 +19,7 @@ const BOProjects = () => {
           </div>
         ))}
       </div>
-      <SingleProject
+      <EnglishSingleProject
         title={'Bulk Disbursement'}
         desc={['The batch delivery function. Send employee wages in batches to save enterprise management costs.']}
         link={'https://www.yuque.com/klaus-rtgrx/goy4cy/bwcv1cpokpoimopo'}

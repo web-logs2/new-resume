@@ -1,3 +1,4 @@
+import EnglishSingleProject from 'src/components/EnglishSingleProject'
 import SingleProject from 'src/components/SingleProject'
 import './index.css'
 
@@ -17,7 +18,7 @@ const WalletProjects = () => {
         ))}
       </div>
       <div className='wallet-project-list'>
-        <SingleProject
+        <EnglishSingleProject
           title={'Lucky Draw'}
           desc={[
             'Big Turntable Lottery draw function',
@@ -26,13 +27,13 @@ const WalletProjects = () => {
           link={'https://www.yuque.com/klaus-rtgrx/goy4cy/bwcv1cpokpoimopo'}
           width={'230px'}
         />
-        <SingleProject
+        <EnglishSingleProject
           title={'Discount Coupons'}
           desc={['Discount Coupon function.','Coupons can be used to offset the order amount.']}
           link={'https://www.yuque.com/klaus-rtgrx/goy4cy/nfw5d069hxk4eue7'}
           width={'230px'}
         />
-        <SingleProject
+        <EnglishSingleProject
           title={'KYC'}
           desc={[
             'Personal Information Management',

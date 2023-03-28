@@ -1,9 +1,9 @@
-.multi-project-content {
+.english-bo-project-content {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     margin-top: 18px;
-    padding: 14px;
+    padding: 14px 14px 0px 14px;
     /* width: 100%; */
     border: 1px solid hsl(210deg 18% 87% / 100%);
     border-radius: 6px;

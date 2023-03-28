@@ -5,7 +5,7 @@ const desc = ['Component library dedicated to productized wallets','Independentl
 
 const ComponentProject = () => {
   return (
-    <div className='component-project-content'>
+    <div className='english-component-project-content'>
       <div>
         <div className='wallet-project-title'>The Component package of Productized Wallet</div>
         {desc.map(item => (
