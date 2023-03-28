@@ -27,9 +27,9 @@ const Projects = () => {
       </div>
       <div>
         <WalletProjects />
-        <BOProjects />
         <ProtalProject />
         <ComponentProject />
+        <BOProjects />
         {/* <div className='english-projects-one-line-list'>
 
         </div> */}
