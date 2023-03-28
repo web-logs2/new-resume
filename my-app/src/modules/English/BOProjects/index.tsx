@@ -22,7 +22,6 @@ const BOProjects = () => {
       <EnglishSingleProject
         title={'Bulk Disbursement'}
         desc={['The batch delivery function. Send employee wages in batches to save enterprise management costs.']}
-        link={'https://www.yuque.com/klaus-rtgrx/goy4cy/bwcv1cpokpoimopo'}
         width={'600px'}
       />
     </div>

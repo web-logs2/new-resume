@@ -4,7 +4,7 @@ export const ProfileConstant = {
   title: 'Zanlai Hu / Resume',
   phone: '13867908869',
   email: 'klaushu@outlook.com',
-  web: 'Personal Website: ',
+  web: 'More info about me and projects, welcome to my website: ',
 }
 
 export const EducationConstant = {

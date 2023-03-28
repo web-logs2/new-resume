@@ -21,16 +21,11 @@ const WalletProjects = () => {
         <SingleProject
           title={'大转盘'}
           desc={['钱包APP的大转盘抽奖功能。', '通过旋转的转盘随机抽取奖品。']}
-          link={'https://www.yuque.com/klaus-rtgrx/goy4cy/bwcv1cpokpoimopo'}
           width={'220px'}
         />
         <SingleProject
           title={'折扣券'}
-          desc={[
-            '钱包APP的折扣券功能',
-            '用户使用折扣券来抵扣订单金额。',
-          ]}
-          link={'https://www.yuque.com/klaus-rtgrx/goy4cy/nfw5d069hxk4eue7'}
+          desc={['钱包APP的折扣券功能', '用户使用折扣券来抵扣订单金额。']}
           width={'230px'}
         />
         <SingleProject
@@ -39,7 +34,6 @@ const WalletProjects = () => {
             '钱包APP的个人信息功能',
             '用户填写个人信息从而使用钱包的更多功能。',
           ]}
-          link={'https://www.yuque.com/klaus-rtgrx/goy4cy/dxu8b668qhmig92n'}
           width={'280px'}
         />
       </div>

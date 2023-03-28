@@ -8,7 +8,7 @@ const desc = [
 
 const BOProjects = () => {
   return (
-    <div className='multi-project-content'>
+    <div className='bo-project-content'>
       <div>
         <div className='wallet-project-title'>BO中后台</div>
         {desc.map(item => (
@@ -21,7 +21,6 @@ const BOProjects = () => {
       <SingleProject
         title={'批量代发'}
         desc={['BO中后台的批量代发功能。批量代发员工工资以节省企业管理成本。']}
-        link={'https://www.yuque.com/klaus-rtgrx/goy4cy/bwcv1cpokpoimopo'}
         width={'500px'}
       />
     </div>
