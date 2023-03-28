@@ -1,4 +1,3 @@
-import SingleProject from 'src/components/SingleProject'
 import { ProjectConstant } from 'src/contants/CH'
 import './index.css'
 import WalletProjects from 'src/modules/Chinese/WalletProjects'

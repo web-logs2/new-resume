@@ -5,8 +5,8 @@ import EnglishResume from "./pages/English";
 function App() {
   return (
     <div className="App">
-      <ChineseResume />
-      {/* <EnglishResume /> */}
+      {/* <ChineseResume /> */}
+      <EnglishResume />
     </div>
   );
 }

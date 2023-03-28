@@ -5,7 +5,7 @@ import './index.css'
 const Skills = () => {
   return (
     <div className='skill-content'>
-      <div className='skill-stack'>
+      <div className='english-skill-stack'>
         <div className='skill-svg-content'>
           <svg
             aria-hidden='true'

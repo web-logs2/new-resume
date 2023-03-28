@@ -42,8 +42,6 @@ export const WorkConstant = {
         '1. Response for the Front-end development work and writing related Technical Documents;',
         '2. International technical consulting;',
         '3. Participate in Wallet Product(mobile web), the middle office and official website.',
-        '3.1 The Wallet Prodcut is the main product saled by Ant. The Lazada, Kakaopay and Vodapay are all products that developed based on Wallet Product.',
-        '3.2 The middle office is the supported product of Wallet Product.'
       ],
     },
     {

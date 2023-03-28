@@ -1,19 +1,17 @@
-.single-project-content {
-    display: inline-block;
+.multi-project-content {
+    display: flex;
     justify-content: space-between;
     flex-direction: column;
-    /* margin-top: 18px; */
-    padding: 16px 14px 14px 4px;
-    width: 230px;
-    /* border-top: 1px solid hsl(210deg 18% 87% / 100%); */
-    /* border-bottom: 1px solid hsl(210deg 18% 87% / 100%); */
-    /* border-radius: 6px; */
+    margin-top: 18px;
+    padding: 14px;
+    /* width: 100%; */
+    border: 1px solid hsl(210deg 18% 87% / 100%);
+    border-radius: 6px;
 }
 
-.single-project-title {
-    padding-bottom: 6px;
-    font-size: 12px;
-    line-height: 14px;
+.bo-project-title {
+    margin-bottom: 6px;
+    font-size: 14px;
 }
 
 .single-project-desc {
@@ -30,10 +28,15 @@
 }
 
 .single-project-view {
-    padding-top: 5px;
+    /* padding-top: 10px; */
     /* padding-left: 12px; */
     color: #0969da;
     font-size: 13px;
 
     /* font-weight: 400; */
+}
+
+.wallet-project-list {
+    display: flex;
+    flex-direction: row;
 }

@@ -7,7 +7,7 @@ import { PersonalWebsiteUrl, ProfileConstant } from 'src/contants/EN'
 
 const Profile = () => {
   return (
-    <div className='profile-content'>
+    <div className='english-profile-content'>
       <div>
         <div className='name'>
           <div>{ProfileConstant.title}</div>

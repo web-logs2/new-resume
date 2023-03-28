@@ -1,6 +1,8 @@
-import SingleProject from 'src/components/SingleProject'
-import { ProjectConstant } from 'src/contants/EN'
 import './index.css'
+import BOProjects from '../BOProjects'
+import ProtalProject from '../PortalProject'
+import ComponentProject from '../ComponentProject'
+import WalletProjects from '../WalletProjects'
 
 const Projects = () => {
   return (
@@ -21,17 +23,16 @@ const Projects = () => {
             ></path>
           </svg>
         </div>
-        {ProjectConstant.title}
+        Representative Projects
       </div>
-      {/* <div className='project-single-project-content'>
-        {ProjectConstant.projects.map(item => (
-          <SingleProject
-            title={item.title}
-            desc={item.desc}
-            link={item?.link}
-          />
-        ))}
-      </div> */}
+      <div>
+        <WalletProjects />
+        <BOProjects />
+        <div className='english-projects-one-line-list'>
+          <ProtalProject />
+          <ComponentProject />
+        </div>
+      </div>
     </div>
   )
 }

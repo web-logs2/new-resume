@@ -4,7 +4,7 @@ import './index.css'
 
 const Work = () => {
   return (
-    <div className='work-content'>
+    <div className='english-work-content'>
       <div className='work-title'>{WorkConstant.title}</div>
       <div className='work-info'>
         {WorkConstant.works.map(item => (
