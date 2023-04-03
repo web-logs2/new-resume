@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import ChineseResume from "./pages/Chinese";
 import EnglishResume from "./pages/English";
 

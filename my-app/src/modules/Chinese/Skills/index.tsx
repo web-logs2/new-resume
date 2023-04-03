@@ -25,9 +25,7 @@ const Skills = () => {
         {SkillConstant.title}
       </div>
       <div className='skill-single-content'>
-        {SkillConstant.skills.map(item => (
-          <SingleSkill skill={item} />
-        ))}
+        web开发、移动端web开发、H5、Hybrid、HTML、CSS/Less/Sass、JavaScript/TypeScript、React
       </div>
     </div>
   )

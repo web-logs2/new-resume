@@ -114,6 +114,7 @@ export const ProjectConstant = {
 export const SkillConstant = {
   title: '技术栈',
   skills: [
+    'web',
     '移动端web',
     'hybrid',
     'React',
